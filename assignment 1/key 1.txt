@@ -1,0 +1,94 @@
+1.1
+1. e m a c s e x e r 1 . h t m l
+2. C - s  P U B L I C  ENTER
+3. C - s  L a b o r a t o r y   C-s  M-b  ENTER M - <
+4. C - s  s e l f - r e f e r e n t i a l  C-s M - <
+5. C - s  a r r o w   C-s  M-b  ENTER
+6. C - e
+7. C - b 
+8. C - x [
+9. No
+10.C - x  C - c y
+
+1.2
+1. e m a c s e x e r 2 . h t m l
+2. M - x g o t o - l i n e 1 7  C - k
+3. C - s  d e l e t e  ENTER  C - a  C - k
+4. C - s  H T M L _   C - s  C - a  M - k
+5. C - s  < !  E N T E R  C - a  C - k
+   C - s  < !  E N T E R  C - a  C - k
+   C - x  C - c y 
+6. d i f f   - u   e x e r 1 . h t m l   e xe r 2 . h t m l > e x e r 2 .d i f f
+
+1.3 
+1. e m a c s e x e r 3 . h t m l
+2. C - s  A s s i g n m e n t  1  ENTER  <backspace> <backspace> 3 7
+3. C - s  A s s i g n m e n t  1  ENTER  <backspace> <backspace> 3 7
+4. C - s  U T F - 8  ENTER  <backspace>  U S - A S C I I
+5. C - s  < / o l >  C - p  C - e  C - o
+6. C - x  C - c y 
+7. d i f f   - u   e x e r 1 . h t m l   e xe r 3 . h t m l > e x e r 3 .d i f f
+
+1.4
+1. c a t e x e r 2 . h t m l e x e r 2 . d i f f  > e x e r 4 . h t m l
+2. e m a c s e x e r 4 . h t m l
+3. M - >  C - a
+   <up> <up> M - w M - x g o t o - l i n e ENTER C - a  C - y
+4. M - >  C - a
+   <up> <up> M - w M - x g o t o - l i n e ENTER C - a  C - y
+   M - >  C - a
+   <up> <up> M - w M - x g o t o - l i n e ENTER C - a  C - y
+5. M - k M - k M - k   
+6. C - x u  C - x u  C - x u
+7. < ! - -   M - >   - - >
+8. C - s  < o l > y y y y y y y    
+   7 "<ol>" in the document    
+   M - x  r e p l a c e - s t r i n g  < o l >   < 0 l >
+9. C - x C - u y
+   d i f f - u e x e r 1 .h t m l e x e r 4 . h t m l > e x e r 4 . d i f f  ENTER
+
+1.5
+c d ~ e m a c s 
+1. M - x  m a k e - d i r e c t o r y   j u n k  ENTER
+2. C - x  C - f   / j u n k / h e l l o . c Shift-Insert
+3. M - x c o m m a n d  h e l l o ENTER y
+4. M - x s h e l l  . / h e l l o 
+5. <up>  M - x  s e t - m a r k - c o m m a n d <up>  <up>  <up>  <up>  <up>  <up>  <up> <up> 
+   M - w  C - b  h e l l o - o u t p u t  C - y
+   M - x  s e t - m a r k - c o m m a n d   M - <  M - w
+   C - x  C - f  cs35l/assignment1/key1.txt   C - y
+#include <stdio.h>
+int
+main (void)
+{
+  char n = '\n';
+  char b = '\\';
+  char q = '"';
+  char const *p = "#include <stdio.h>%cint%cmain 
+  (void)%c{%c  char n = '%cn';%c  char b = '%c%c';%c  char q = '%c';%c  
+  char const *p = %c%s%c;%c  printf (p, n, n, n, n, b, n, b, \
+b, n, q, n, q, p, q, n, n, n, n);%c  return 0;%c}%c";
+  printf (p, n, n, n, n, b, n, b, b, n, q, n, q, p, q, n, n, n, n);
+  return 0;
+}
+
+
+1.6
+e m a c s
+1. C - x b  * s c r a t c h * ENTER
+2. ( r a n d o m ) C - j
+3. ( s e t q x ( r a n d o m ) )  C -j  
+   ( s e t q y ( r a n d o m ) )  C -j
+4. ( * x y)
+   The product of two positive values is negative
+5. M - : ( * x y )
+   The result is the same but there is the value of the number in base-8 and base-16
+6. The numbers are limited to 19 digit for positive and 18 digit for negative. 
+   The probability of the occurance of positive number is higher than that of negative number.
+7. 
+   It will be easier to calculate probability of positive integers only since the probability is actually the same.
+   When the result exceeds the limit of number which is 2^64 -1, it would be incorrect. 
+   If both integers are over 2^32, then the product already exceeds. So in the nearly 2^128
+   possible cases, there are at least (2^64-2^32)* (2^64-2^32) cases which are incorrect.
+   That is 2^128-2^97+2^64. The probability is at least (2^128-2^97+2^64)/2^128=0.99999999953. 
+   So the probability will be really close to 1 and can be regarded as 1.

@@ -1,0 +1,69 @@
+1: "m a n m a n  E N T E R" to go through commands for man
+   and find the search all pages command
+   "m a n -K  E N T E R" to search all man pages
+
+2: /usr/bin/cp  /usr/bin/wc    "w h e r e i s c p E N T E R" "w h e r e i s w c E N T E R"  
+
+3: 3  “f i n d  / u s r / b i n - n a m e "?"  ENTER"
+
+4: /etc/alternatives/emacs "f i n d l i n k / u s r / b i n / e m a c s  ENTER"
+
+5： g+s--run the executable with the permission of the executable's group   
+    o+x--give users who are not owner of the file permission to execute a file
+
+6: -mtime
+
+7: "f i n d - m t i m e - 2 1 - t y p e d E N T E R"
+.
+./nsdefault
+./Desktop
+./Documents
+./Downloads
+./.cache
+./.cache/abrt
+./.config
+./.config/abrt
+./perl5
+./cs33
+./cs33/hw1
+./cs35l
+./cs35l/assignment1
+./.emacs.d
+./.emacs.d/auto-save-list
+
+  
+
+8:246    "w h e r e i s f i n d  c d / u s r / b i n   f i n d - t y p e l"
+  then copy the list of soft links into emacs and calculate the line number
+  for the number of soft links 
+
+9: libsystemd-journal.so.0.11.5  "c d u s r / l i b E N T E R l s - t"
+
+10: environment variable
+
+11:  sort-lines
+     sort-pages
+     sort-fields
+     sort-columns
+     sort-paragraphs
+     sort-regexp-fields
+     sort-numeric-fields
+     rmail-sort-by-author
+     rmail-sort-by-date
+     rmail-sort-by-labels
+     rmail-sort-by-lines
+
+12: C-M-a: move to the beginning 
+    C-M-b: move back a word
+    C-M-c: exit the recursive edit
+    C-M-d:
+    C-M-e: move to the end
+    C-M-f: move forward a word
+    C-M-g:
+    C-M-h: mark all regions
+
+13: quit the command
+
+14: reinsert the text that gets killed previously 
+
+15: dired shows total available memory but ls -l doesn't.

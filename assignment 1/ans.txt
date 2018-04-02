@@ -1,0 +1,38 @@
+1: "m a n m a n  E N T E R" to go through commands for man and find the search all pages command
+   "m a n -K  E N T E R" to search all man pages
+
+
+
+2: /usr/bin/cp  /usr/bin/wc    "w h e r e i s c p E N T E R" "w h e r e i s w c E N T E R"  
+
+
+
+3: “f i n d  ?  E N T E R"
+
+4: /etc/alternatives/emacs "f i n d l i n k / u s r / b i n / e m a c s E N T E R"
+
+5: g+s--run the executable with the permission of the executable's group    o+x--give users who are not owner of the file the permission to execute a file
+
+6: -mtime
+
+7: "f i n d - m t i m e - 2 1 E N T E R"
+
+8: find -type l : can't count the number?
+
+9: libsystemd-journal.so.0.11.5  "c d u s r / l i b E N T E R l s - t"
+
+12: C-M-a: move to the beginning 
+    C-M-b: move back a word
+    C-M-c: exit the recursive edit
+    C-M-d:
+    C-M-e: move to the end
+    C-M-f: move forward a word
+    C-M-g:
+    C-M-h: mark all regions
+
+13: quit the command
+
+14: reinsert the text that gets killed previously 
+
+15: dired list "." and ".." directories while ls doesn't. 
+?? 
